@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-skills",
-  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, and Codebase Wizard. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, and STE100. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
@@ -199,6 +199,93 @@
         "codebase",
         "documentation",
         "wizard",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "google-docs-style",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/google-docs-style"
+      },
+      "description": "Google developer documentation style: skills, output formatter, and hooks for Claude Code, Codex, Cursor, and Grok Build.",
+      "version": "1.1.2",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/google-docs-style",
+      "repository": "https://github.com/SpillwaveSolutions/google-docs-style",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "style",
+        "docs",
+        "google-style",
+        "writing",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "spillwave-ui-guard",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/spillwave-ui-guard"
+      },
+      "description": "Wireframe-first + adversarial UI review. Forces a spec before implementation and a critic pass before the change is accepted.",
+      "version": "0.2.2",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/spillwave-ui-guard",
+      "repository": "https://github.com/SpillwaveSolutions/spillwave-ui-guard",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "ui",
+        "review",
+        "wireframe",
+        "adversarial",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "ste100",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/ste100-agent-plugins"
+      },
+      "description": "ASD-STE100 Simplified Technical English gate: skill + output style, local orchestrator/editor/adversary loop. No API calls.",
+      "version": "0.1.3",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/ste100-agent-plugins",
+      "repository": "https://github.com/SpillwaveSolutions/ste100-agent-plugins",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "ste100",
+        "simplified-english",
+        "writing",
+        "style",
         "claude-code",
         "grok-build",
         "codex",
