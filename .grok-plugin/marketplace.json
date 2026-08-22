@@ -1,0 +1,16 @@
+{
+  "name": "spillwave-skills",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, and Codebase Wizard. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "spillwave-skills",
+      "source": ".",
+      "version": "0.1.0",
+      "compatibility": {
+        "claude_plugin": true,
+        "zero_config": true
+      }
+    }
+  ]
+}

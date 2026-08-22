@@ -1,0 +1,15 @@
+version: 1
+project:
+  key: SKILLS
+  name: "Spillwave Skills Marketplace"
+ticketing:
+  system: github
+  project: SpillwaveSolutions/skills-marketplace
+wiki:
+  system: github-wiki
+  root_url: https://github.com/SpillwaveSolutions/skills-marketplace/wiki
+paths:
+  plans: docs/plans
+  status: docs/status
+  roadmap: docs/roadmap.md
+installed: 0.24.4

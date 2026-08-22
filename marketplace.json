@@ -1,0 +1,212 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "spillwave-skills",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, and Codebase Wizard. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
+  "owner": {
+    "name": "Rick Hightower",
+    "url": "https://github.com/RichardHightower"
+  },
+  "metadata": {
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "developing-with-docker",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/developing-with-docker-agentic-skill"
+      },
+      "description": "Debugging-first guidance for professional Docker development (CLI, Compose, Desktop, Rancher).",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/developing-with-docker-agentic-skill",
+      "repository": "https://github.com/SpillwaveSolutions/developing-with-docker-agentic-skill",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "docker",
+        "compose",
+        "containers",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "using-localstack",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/using-localstack-plugin"
+      },
+      "description": "Build, test, and debug AWS-native systems locally with LocalStack (Community/Pro).",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/using-localstack-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/using-localstack-plugin",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "localstack",
+        "aws",
+        "awslocal",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "creating-zola-static-sites",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/creating-zola-static-sites-plugin"
+      },
+      "description": "Build static sites with Zola (Rust SSG): Tera templates, taxonomies, deploy.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/creating-zola-static-sites-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/creating-zola-static-sites-plugin",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "zola",
+        "ssg",
+        "static-site",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "automating-mac-apps",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/automating-mac-apps-plugin"
+      },
+      "description": "Automate macOS apps via Apple Events using AppleScript (discovery) and JXA (production).",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/automating-mac-apps-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/automating-mac-apps-plugin",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "macos",
+        "applescript",
+        "jxa",
+        "osascript",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "mastering-python-skill",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/mastering-python-skill-plugin"
+      },
+      "description": "Modern Python coaching: types, async, packaging, testing, Pydantic, FastAPI.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/mastering-python-skill-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/mastering-python-skill-plugin",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "python",
+        "pydantic",
+        "fastapi",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "mastering-aws-cdk",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/mastering-aws-cdk-plugin"
+      },
+      "description": "AWS CDK v2 TypeScript guidance: stacks, troubleshooting, CI/CD, service patterns.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/mastering-aws-cdk-plugin",
+      "repository": "https://github.com/SpillwaveSolutions/mastering-aws-cdk-plugin",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "aws",
+        "cdk",
+        "typescript",
+        "infrastructure",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "codebase-wizard",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/codebase-mentor"
+      },
+      "description": "Wizard-style codebase exploration, documentation, and Q&A with auto-captured sessions.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/codebase-mentor",
+      "repository": "https://github.com/SpillwaveSolutions/codebase-mentor",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "codebase",
+        "documentation",
+        "wizard",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    }
+  ]
+}

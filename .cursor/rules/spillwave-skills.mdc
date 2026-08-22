@@ -1,0 +1,5 @@
+---
+description: Spillwave skills marketplace
+alwaysApply: false
+---
+This repo is a plugin catalog. Install listed skills from their GitHub sources. Track catalog changes with WikiTicket SDD.
