@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-skills",
-  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, and STE100. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, and STE100, Architect Agent. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.1.1"
+    "version": "0.1.2"
   },
   "plugins": [
     {
@@ -286,6 +286,35 @@
         "simplified-english",
         "writing",
         "style",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "architect-agent",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/architect-agent"
+      },
+      "description": "Architect agent: plan, delegate to code agents, grade implementations, iterate to a quality bar.",
+      "version": "3.2.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/architect-agent",
+      "repository": "https://github.com/SpillwaveSolutions/architect-agent",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "architecture",
+        "architect",
+        "delegation",
+        "grading",
         "claude-code",
         "grok-build",
         "codex",

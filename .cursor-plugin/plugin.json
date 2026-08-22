@@ -1,6 +1,6 @@
 {
   "name": "spillwave-skills-marketplace",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100.",
   "author": {
     "name": "Rick Hightower"
