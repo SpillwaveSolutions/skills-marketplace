@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Add image-gen 2.0.0 (article covers and illustrations, imagen CLI + Nano Banana 2 / Pro, grok/codex fallback).
+
 ## 0.1.2
 
 - Add architect-agent 3.2.0 (plan/delegate/grade skill, previously missing from the catalog).

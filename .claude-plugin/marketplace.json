@@ -1,13 +1,13 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "spillwave-skills",
-  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, and STE100, Architect Agent. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS automation, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100, Architect Agent, Image Gen. Multi-host (Claude Code, Grok Build, Codex, Cursor, Agent Plugins 1.0). Not the second-brain suite.",
   "owner": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
   },
   "metadata": {
-    "version": "0.1.2"
+    "version": "0.1.3"
   },
   "plugins": [
     {
@@ -315,6 +315,36 @@
         "architect",
         "delegation",
         "grading",
+        "claude-code",
+        "grok-build",
+        "codex",
+        "cursor",
+        "agent-plugins",
+        "worklog",
+        "wiki-ticket-sdd"
+      ]
+    },
+    {
+      "name": "image-gen",
+      "source": {
+        "source": "github",
+        "repo": "SpillwaveSolutions/image_gen"
+      },
+      "description": "Cover images and in-article illustrations. Latest imagen CLI, Nano Banana 2 / Pro, grok then codex fallback. Fail closed writes a prompt sidecar.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Rick Hightower"
+      },
+      "homepage": "https://github.com/SpillwaveSolutions/image_gen",
+      "repository": "https://github.com/SpillwaveSolutions/image_gen",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "image-generation",
+        "imagen",
+        "nano-banana",
+        "article",
+        "cover-image",
         "claude-code",
         "grok-build",
         "codex",

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "spillwave-skills-marketplace",
-  "version": "0.1.2",
-  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100.",
+  "version": "0.1.3",
+  "description": "Spillwave skills catalog: Docker, LocalStack, Zola, macOS, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100, Architect Agent, Image Gen.",
   "author": {
     "name": "Rick Hightower",
     "url": "https://github.com/RichardHightower"
