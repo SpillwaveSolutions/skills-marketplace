@@ -1,6 +1,6 @@
 # Spillwave Skills Marketplace
 
-Catalog for **domain skills plugins** (Docker, LocalStack, Zola, macOS apps, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100, Architect Agent).
+Catalog for **domain skills plugins** (Docker, LocalStack, Zola, macOS apps, Python, AWS CDK, Codebase Wizard, Google Docs style, UI Guard, STE100, Architect Agent, Image Gen).
 
 This is **not** the second-brain suite. Knowledge/OKF packs live in [`second-brain-marketplace`](https://github.com/SpillwaveSolutions/second-brain-marketplace).
 
@@ -22,6 +22,7 @@ MIT. Multi-host: **Claude Code**, **Grok Build**, **Codex**, **Cursor**, **Agent
 /plugin install spillwave-ui-guard@spillwave-skills
 /plugin install ste100@spillwave-skills
 /plugin install architect-agent@spillwave-skills
+/plugin install image-gen@spillwave-skills
 ```
 
 Codex: install from each plugin repo's `.codex-plugin` (or `codex plugin marketplace add SpillwaveSolutions/skills-marketplace` if the host reads this catalog).
@@ -32,6 +33,7 @@ Skilz:
 
 ```bash
 skilz install SpillwaveSolutions/developing-with-docker-agentic-skill
+skilz install SpillwaveSolutions/image_gen
 ```
 
 ## Plugins
@@ -49,6 +51,7 @@ skilz install SpillwaveSolutions/developing-with-docker-agentic-skill
 | `spillwave-ui-guard` | [spillwave-ui-guard](https://github.com/SpillwaveSolutions/spillwave-ui-guard) | 0.2.2 | Wireframe-first adversarial UI review |
 | `ste100` | [ste100-agent-plugins](https://github.com/SpillwaveSolutions/ste100-agent-plugins) | 0.1.3 | ASD-STE100 Simplified Technical English gate |
 | `architect-agent` | [architect-agent](https://github.com/SpillwaveSolutions/architect-agent) | 3.2.0 | Plan → delegate to code agents → grade → iterate |
+| `image-gen` | [image_gen](https://github.com/SpillwaveSolutions/image_gen) | 2.0.0 | Article covers and illustrations (imagen CLI, Nano Banana 2/Pro, grok/codex fallback) |
 
 Each listed plugin already has five-host packaging and WikiTicket SDD (`.work/`). Nested Claude marketplace layouts were preserved.
 
